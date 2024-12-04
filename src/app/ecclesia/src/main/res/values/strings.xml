@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Ecclesia</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="ecclesia">Ecclesia</string>
 </resources>
