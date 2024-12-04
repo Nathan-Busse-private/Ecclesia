@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
+        android:layout_width="994dp"
         android:layout_height="58dp"
         android:layout_weight="1"
         android:contentDescription="@string/app_name"
@@ -19,4 +19,12 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         tools:ignore="TextSizeCheck"
         tools:text="@string/app_name" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
 </LinearLayout>
