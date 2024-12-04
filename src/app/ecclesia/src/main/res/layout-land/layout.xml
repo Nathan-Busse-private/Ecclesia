@@ -10,9 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:contentDescription="app_name"
-        android:text="Ecclesia"
+        android:contentDescription="@string/app_name"
+        android:text="@string/app_name"
         android:textAlignment="center"
-        android:textColorHighlight="@android:color/background_dark"
+        android:textColor="?android:attr/editTextColor"
+        android:textColorHighlight="?android:attr/textColorHighlight"
         tools:text="Ecclesia" />
 </LinearLayout>
