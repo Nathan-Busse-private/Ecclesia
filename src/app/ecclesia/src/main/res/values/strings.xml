@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Ecclesia</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Ecclesia</string>
     <string name="ecclesia">Ecclesia</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
