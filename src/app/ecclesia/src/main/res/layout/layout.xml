@@ -4,25 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:visibility="visible">
+    android:baselineAligned="false"
+    android:visibility="visible"
+    tools:visibility="visible">
 
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="73dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="text"
-        android:text="@string/ecclesia"
-        tools:ignore="LabelFor,VisualLintTextFieldSize" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="58dp"
         android:layout_weight="1"
-        android:contentDescription="@string/action_sign_in"
-        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
-
+        android:contentDescription="@string/app_name"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:ignore="TextSizeCheck"
+        tools:text="@string/app_name" />
 </LinearLayout>
